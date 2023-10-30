@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Heladería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tu Heladería Favorita</h1>
+        <nav>
+            <ul>
+                <li><a href="#nuestros-helados">Nuestros Helados</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="nuestros-helados">
+        <h2>Nuestros Helados</h2>
+        <div class="helado">
+            <img src="helado1.jpg" alt="Helado de Chocolate">
+            <h3>Helado de Chocolate</h3>
+            <p>Helado con sabor a Chocolate</p>
+            <p>Sabor clásico y lo mejor completamente casero</p>
+        </div>
+        <div class="helado">
+            <img src="helado2.jpg" alt="Helado de Vainilla">
+            <h3>Helado de Vainilla</h3>
+            <p>Sabor estandar, no es yogurt y mucho menos leche</p>
+            <p>Es un delicioso helado hecho completamente casero</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para hacer tu pedido!</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Heladería Favorita</p>
+    </footer>
+</body>
+</html>
